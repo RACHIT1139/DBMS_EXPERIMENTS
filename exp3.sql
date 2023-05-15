@@ -35,7 +35,7 @@ select * from manager where Hiredate < '30-sep-81';
 ```
 ## Q7)	List names of employees who’s employee numbers are 7369,7839,7934,7788.
 ```sql
-select enumber from manager where enumber in (7369,7521,7839,7934,7788);
+select ename from manager where enumber in (7369,7521,7839,7934,7788);
 ```
 ## Q8)	List the names of employee who are not Managers.
 ```sql
